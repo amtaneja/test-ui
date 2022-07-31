@@ -1,0 +1,86 @@
+.main {
+  height: 100vh;
+  width: 100%;
+  background: rgba(21, 20, 20, 0.25);
+}
+
+.navbar {
+  margin-top: 2%;
+}
+
+.heading {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 5em;
+  line-height: 140px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: white;
+  margin-top: 8%;
+}
+
+.sub-heading {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2em;
+  align-items: center;
+  text-align: center;
+  color: white;
+  margin-top: 2%;
+}
+
+.inputBox {
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  width: 60%;
+  height: 14%;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 2%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.button {
+  background-color: white; /* Green */
+  border: none;
+  color: white;
+  padding: 20px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+}
+
+.search {
+  background: linear-gradient(90deg, #ff594c 0%, #fac527 100%);
+}
+
+label {
+  text-align: left;
+  color: #6d6d6d;
+  font-size: 10px;
+}
+
+input {
+  margin-top: 3%;
+  color: black;
+  border: none;
+}
+
+::placeholder {
+  color: black;
+  font-size: 16;
+}

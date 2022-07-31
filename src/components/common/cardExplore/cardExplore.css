@@ -1,0 +1,58 @@
+.card-wrapper-explore {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 60%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.details-explore {
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  width: 58%;
+  height: 24%;
+  margin-top: -5%;
+  margin-left: 12%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.img-explore {
+  width: 80%;
+  border-radius: 1.5rem;
+}
+
+.main-button {
+  background: linear-gradient(90deg, #ff594c 0%, #fac527 100%);
+  border-radius: 10px;
+  height: 30px;
+  width: 20%;
+  border: none;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.secondary-button {
+  background: linear-gradient(90deg, #ff594c 0%, #fac527 100%);
+  border-radius: 10px;
+  height: 50%;
+  width: 30%;
+  border: none;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  padding: 5px;
+  margin: 10px;
+}

@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 10;
+  font-family: "Dancing Script", sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("./assets/pexels-vecislavas-popa-1571460\ 1.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
