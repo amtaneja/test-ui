@@ -7,6 +7,7 @@ import aboutImage2 from "../assets/pexels-max-vakhtbovych-6492403 1.jpeg";
 import aboutImage3 from "../assets/pexels-houzlook-com-3356416 2.jpeg";
 import aboutImage4 from "../assets/pexels-oleg-zaicev-4834891 1.jpeg";
 
+// room data array
 export const roomData = [
   {
     img: houseImg,
@@ -22,6 +23,7 @@ export const roomData = [
   },
 ];
 
+// about data array
 export const aboutData = [
   {
     img: aboutImage1,

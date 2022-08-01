@@ -1,12 +1,12 @@
 import React from "react";
 import Navbar from "../navbar/Navbar";
-import "./home.css";
+import "./mainScreen.css";
 
 const MainScreen = () => {
   return (
     <div className="main">
       <div className="navbar">
-        <Navbar navType="main" />
+        <Navbar navType="topNav" />
       </div>
       <div className="heading">
         <h1>Rethink your living & renting</h1>
@@ -25,7 +25,7 @@ const MainScreen = () => {
           <label>GUESTS</label>
           <input placeholder="Select your guests" />
         </div>
-        <div className="button search">Search</div>
+        <button className="button search">Search</button>
       </div>
     </div>
   );

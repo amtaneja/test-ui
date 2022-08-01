@@ -4,7 +4,7 @@ import "./navbar.css";
 const Navbar = ({ navType }) => {
   const [isMobile, setIsMobile] = useState(false);
   const isFooter = navType === "footer";
-  console.log(navType);
+
   return (
     <nav className={isFooter ? "main-nav-footer" : "main-nav"}>
       <div className={isFooter ? "logo-footer" : "logo"}>
