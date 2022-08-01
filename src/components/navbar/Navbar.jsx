@@ -1,7 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 import "./navbar.css";
 
 const Navbar = ({ navType }) => {
+  const [isMobile, setIsMobile] = useState(false);
   const isFooter = navType === "footer";
   console.log(navType);
   return (
@@ -9,8 +10,16 @@ const Navbar = ({ navType }) => {
       <div className={isFooter ? "logo-footer" : "logo"}>
         <h2>Aman Taneja</h2>
       </div>
-      <div className={isFooter ? "menu-links-footer" : "menu-links"}>
-        <ul className="links">
+      <div
+        className={
+          isFooter
+            ? "menu-links-footer"
+            : isMobile
+            ? "mobile-links"
+            : "menu-links"
+        }
+      >
+        <ul>
           <li>
             <a href="/about">Explore</a>
           </li>
@@ -27,6 +36,18 @@ const Navbar = ({ navType }) => {
           </li>
         </ul>
       </div>
+      {!isFooter && (
+        <button
+          className="mobile-menu-icon"
+          onClick={() => setIsMobile(!isMobile)}
+        >
+          {isMobile ? (
+            <i className="fas fa-times"></i>
+          ) : (
+            <i className="fas fa-bars"></i>
+          )}
+        </button>
+      )}
     </nav>
   );
 };
