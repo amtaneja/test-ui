@@ -56,3 +56,19 @@
   padding: 5px;
   margin: 10px;
 }
+
+@media (max-width: 500px) {
+  .details-explore {
+    width: 88%;
+    height: 8%;
+    margin-top: -15%;
+    margin-left: 1%;
+  }
+  .img-explore {
+    width: 90%;
+  }
+  .card-wrapper-explore {
+    width: 70%;
+    padding: 1%;
+  }
+}

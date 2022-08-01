@@ -27,3 +27,18 @@
   gap: 50px;
   grid-template-columns: auto auto;
 }
+
+@media (max-width: 500px) {
+  .cards-container-about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .about-heading {
+    font-size: 3em;
+  }
+  .about-subheading {
+    font-size: 1em;
+  }
+}

@@ -84,3 +84,19 @@ input {
   color: black;
   font-size: 16;
 }
+
+@media (max-width: 500px) {
+  .heading {
+    font-size: 2em;
+    line-height: 70px;
+  }
+  .inputBox {
+    flex-direction: column;
+  }
+
+  .inputBox {
+    width: 60%;
+    height: 51%;
+    margin-top: 5%;
+  }
+}

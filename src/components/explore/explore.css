@@ -30,3 +30,16 @@
   justify-content: center;
   align-items: center;
 }
+
+@media (max-width: 500px) {
+  .cards-container-explore {
+    flex-direction: column;
+    margin-top: 3%;
+  }
+  .explore-heading {
+    font-size: 3em;
+  }
+  .explore-subheading {
+    font-size: 1em;
+  }
+}

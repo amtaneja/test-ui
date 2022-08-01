@@ -7,3 +7,9 @@
 .footer-text {
   margin-left: 16%;
 }
+
+@media (max-width: 500px) {
+  .footer-container {
+    margin-top: 155%;
+  }
+}
